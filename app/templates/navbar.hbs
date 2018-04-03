@@ -1,0 +1,28 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    
+
+    <div class="collapse navbar-collapse" >
+       <ul class="nav navbar-nav">
+        {{#link-to 'index' tagName="li"}}<a href="/">Home</a>{{/link-to}}
+        {{#link-to 'map' tagName="li"}}<a href="/map">Map</a>{{/link-to}}
+            
+        {{#link-to 'planTrip' tagName="li"}}<a href="/planTrip">Plan a Trip</a>{{/link-to}}
+          {{#link-to 'bookTicket' tagName="li"}}<a href="/bookTicket">Book Ticket</a>{{/link-to}}
+         {{#link-to 'tracking' tagName="li"}}<a href="/tracking">Track Your Bus</a>{{/link-to}}
+            {{#link-to 'feedback' tagName="li"}}<a href="/feedback">Feedback</a>{{/link-to}}
+       </ul>
+       
+                <ul class="nav navbar-nav navbar-right">
+          
+                   
+            {{#link-to 'login' tagName="li"}}<a href="/login">Login</a>{{/link-to}}  
+      {{#link-to 'signup' tagName="li"}}<a href="/signup">Sign Up</a>{{/link-to}}     
+              
+                
+                </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
